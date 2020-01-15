@@ -3,7 +3,7 @@
 
 In this project the game rule is a little bit different from the classic Sokoban Game, there can be multible "workers" in the game.
 
-The original game state can be input as a SokobanState object, ex:
+The original game state can be input as a SokobanState object, the following example is corresponding to the case shown in picture below:
 
 
 SokobanState("START", 0, None, 6, 6, # dimensions
