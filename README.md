@@ -5,15 +5,17 @@ In this project the game rule is a little bit different from the classic Sokoban
 
 The original game state can be input as a SokobanState object, the following example is corresponding to the case shown in picture below:
 
-
+```
 SokobanState("START", 0, None, 6, 6, # dimensions
                  ((0, 0), (0, 2), (0, 4), (5, 5)), #robots
                  frozenset(((1, 0), (4, 1), (1, 2), (4, 3), (1, 4), (4, 5))), #boxes
                  frozenset(((5, 0), (0, 1), (5, 2), (0, 3), (5, 4), (0, 5))), #storage
                  frozenset() #obstacles
                  )
+```
                  
                  
 Program will solve for the solution and search for the final state, for a detailed explanation please check "project_description.pdf"
 
 <img src="img/demo.jpg">
+
