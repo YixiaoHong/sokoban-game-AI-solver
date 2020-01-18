@@ -1,9 +1,11 @@
 # sokoban-game-AI-solver
-"Introduction to Artificial Intelligence" course project, developped a “Sokoban Game” AI solver with multiple searching algorithms (Depth First Search, Breadth First Search, Uniform Cost Search and Heuristic A* Search)
+
+## Breif Introduction of the project
+A individual project from the course "Introduction to Artificial Intelligence", developped a “Sokoban Game” AI solver with multiple searching algorithms (Depth First Search, Breadth First Search, Uniform Cost Search and Heuristic A* Search)
 
 In this project the game rule is a little bit different from the classic Sokoban Game, there can be multible "workers" in the game.
-
-The original game state can be input as a SokobanState object, the following example is corresponding to the case shown in picture below:
+  
+The original game state can be input as a SokobanState object in sokoban.py, the following example is corresponding to the case shown in picture below:
 
 ```
 SokobanState("START", 0, None, 6, 6, # dimensions
@@ -13,9 +15,11 @@ SokobanState("START", 0, None, 6, 6, # dimensions
                  frozenset() #obstacles
                  )
 ```
-                 
-                 
-Program will solve for the solution and search for the final state, for a detailed explanation please check "project_description.pdf"
 
+# Program solves for the solution and search for the final state
 <img src="img/demo.jpg">
+
+### For a detailed explanation please check "project_description.pdf"
+
+
 
