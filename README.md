@@ -16,7 +16,7 @@ SokobanState("START", 0, None, 6, 6, # dimensions
                  )
 ```
 
-# Program solves for the solution and search for the final state
+### Program solves for the solution and search for the final state
 <img src="img/demo.jpg">
 
 ### For a detailed explanation please check "project_description.pdf"
